@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #FFFAF0;
+}
+
+header {
+    background-color: #FF69B4;
+    color: black;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.sidebar {
+    background-color: pink;
+    padding: 1.5rem;
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    
+    
+}
+
+
+.sidebar:hover {
+    transform: scale(1.05);
+
+}
+.sidebar h1{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: line-through rgba(133, 69, 80, 0.238);
+    color: rgba(242, 44, 133, 0.958);
+    transition: all 500ms;
+    margin-bottom: 20px;
+}
+.sidebar h1:hover{
+    transform: translatey(-100px);
+}
+.sidebar h2{
+    margin-bottom: 3px;
+    text-decoration: underline;
+}
+.sidebar p{
+    font-size: 20px;
+}
+.sidebar .address{
+    font-size: 20px;
+    font-weight: 700;
+    color: #C71585;
+    transition: all 300ms;
+    margin-top: 10px;
+    
+    
+}
+.sidebar .address:hover{
+    color: #FF1493
+
+}
+
+.main-content {
+    background-color: pink;
+    flex: 1;
+    padding: 2rem;
+    margin-left: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px 10px;
+}
+.main-content h2{
+    margin-bottom: 15px;
+    color:  #f00f83;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.main-content h2:hover{
+    text-decoration: underline;
+}
+.main-content p{
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: black;
+    
+    
+}
+ 
+    
+
+.main-content h3{
+    font-weight: 700;
+    font-size: 30px;
+    color: #f00f83;
+    
+}
+.main-content h3:hover{
+    text-decoration: underline ;
+}
+
+
+.main-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.main-content img:hover {
+    transform: scale(1.5) rotate(-10deg) ;
+}
+
+.flowers{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #FF69B4;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    text-decoration: none;
+    color: #C71585;
+    font-weight: bold;
+    
+}
+
+a:hover {
+    color: #FF1493;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin:  10px;
+}
+.sidebar >ul li{
+    margin: 35px 10px;
+    font-size: 20px;
+    color: #C71585; 
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.sidebar>ul li:hover{
+    color:#FF1493;
+
+}
+.main-content ul li{
+    font-size: 20px;
+}
+
+
+
+.main-content ul li::before{
+    content: '➢';
+    
+}
+.main-content .follow{
+    text-align: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-left: 50px; 
+    font-weight: 900;
+    margin-top: 25px;
+    font-size: 25px;
+    transition: all 300ms;
+    color:  rgba(213, 31, 131, 0.956);
+    
+}
+.main-content .follow:hover{
+    scale: 1.2;
+    background-color: #fffaf043;
+    border-radius: 50%;
+
+}
+    
+    
+    
+
+
+.follow> a{
+    color: rgb(202, 40, 129);
+}
+
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>contact form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    
+        
+    
+</head>
+<body>
+    
+    <form style="margin-left: 35%; ; margin-top:2%; width: 50%; text-align: left; font-size: 20px;">
+
+        <fieldset style="width: 50%; padding-top: 2%; " >
+            <legend style="font-size: 25px; text-decoration: underline;" >contact form</legend>
+
+        <label for="full name">full name :</label>
+
+        <input type="text" name="name" id="full name" placeholder=" full name" minlength="5" maxlength="10" required>
+        <br><br>
+
+        <label for="Email"> Email : </label>
+
+        <input type="email" placeholder=".....@gmail.com" id="Email" required>
+        <br> <br>
+
+        <label for="Phone"> Phone :</label>
+
+        <input type="tel" name="Phone no." placeholder="9621414550" id="Phone" required>
+        <br><br>
+
+        <label for="Subject"> Subject :</label>
+
+        <select>
+            <option value="English" id="Subject"> English  </option>
+            <option value="Gujarati" id="Subject"> Gujarati </option>
+            <option value="Science" id="Subject"> Science </option>
+            <option value="Hindi" id="Subject"> Hindi  </option>
+            <option value="social-science" id="Subject"> social-science </option>
+        </select>
+        <br><br>
+
+        <label for="Message">Message :</label>
+
+        <textarea cols="20"  rows="2" id="Message"></textarea >
+        <br> <br>
+
+        <input type="button" value="submit">
+    </fieldset>
+    </form>
+</body>
+</html>
