@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>audio video tag</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body {
+            font-family: serif;
+            font-size: 20px;
+            background-color: aquamarine;
+        }
+        .container {
+            margin: 20px;
+        }
+
+        h1{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        h1:hover{
+            color: red;
+            text-decoration: line-through;
+        }
+        audio{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        video{
+            border: 1px solid black;
+        }
+        canvas{
+            background-color: yellow;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        
+
+        <!-- Audio Tag -->
+        <h1>Audio tag</h1>
+        <audio controls autoplay loop>
+        <source src="/lab/video and audio/audio-1.mp3" type="audio/mp3">
+            Your browser does not support the audio tag.
+        </audio>
+        <br><br>
+
+        <!-- Video Tag -->
+         <h1>video tag</h1>
+        <video width="400" controls autoplay muted loop>
+            <source src="/lab/video and audio/video-1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        
+
+        <!-- Canvas Shape -->
+        <h1>canvas shape </h1>
+        <canvas id="canvas" width="200" height="100" style="border:1px solid #000;" ></canvas>
+
+        
+
+        <!-- SVG Shape -->
+        <h1>SVG shape</h1>
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="yellow" />
+        </svg>
+    </div>
+
+</body>
+</html>
