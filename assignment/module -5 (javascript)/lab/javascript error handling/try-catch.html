@@ -1,0 +1,21 @@
+<script>
+    
+    // Function to attempt division by zero
+function divideByZero(number) {
+    try {
+        // Attempt to divide the number by zero
+        if (number === 0) {
+            throw new Error("Cannot divide by zero!");  // Throw an error manually
+        }
+        let result = 10 / number;  // Example division
+        console.log("Result: " + result);
+    } catch (error) {
+        // Handle any errors that occur during the division
+        console.log("Error: " + error.message);
+    }
+}
+
+// Example usage: Dividing by zero
+divideByZero(0);
+
+</script>

@@ -1,0 +1,2 @@
+## Que 19: Explain how to access and update object properties using dot notation and bracket notation.
+ans. You simply do object. key to read/modify an existing property or to add a new property. Bracket Notation is useful when you want to dynamically access a property. The key of this property could come from expressions like getKey() , "my" + "key" , or keyVariable .
